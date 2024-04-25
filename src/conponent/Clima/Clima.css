@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.clima{
+    position: relative;
+    background-image: linear-gradient(170deg, #fffefb81, #2b7f94);
+    border-radius: 1em;
+    border: 2px solid rgb(127, 141, 50);
+    width: 30em;
+    height: 45em;
+}
+
+
+
+
+/*PESQUISA*/
+
+.clima-pesquisa{
+    margin-top: 2em;
+}
+
+.clima-pesquisa_input{
+    font-size: 1.4em;
+    padding: 0.7em 1em;
+    border: none;
+    border-radius: 1em;
+}
+
+.clima-pesquisa_input::placeholder{
+    color: black;
+}
+
+.clima-pesquisa_button{
+    position: relative;
+    width: 4.3em;
+    height: 4.3em;
+    border: none;
+    background-color: white;
+    border-radius: 30em;
+    top: 1em;
+    margin-left: 2em;
+}
+
+
+
+
+/*IMAGEM*/
+
+.clima-imagem{
+    display: none;
+}
+
+.clima-imagem_img{
+    width: 16em;
+    margin-top: 1em;
+}
+
+
+
+
+/*INFORMAÇÃO*/
+
+.clima-informacao_temperatura{
+    margin: none;
+    font-size: 5em;
+    color: white;
+}
+
+.clima-informacao_local{
+    color: whitesmoke;
+    font-size: 3em;
+}
+
+
+
+
+/*SubInformação*/
+
+.clima-subInformacao{
+    display: flex;
+    justify-content: space-between;
+    margin: 6em 2em 0em 1em;
+}
+
+.clima-subInformacao_umidade{
+    display: flex;
+    color: rgb(231, 231, 231);
+}
+
+.clima-subInformacao_vento{
+    display: flex;
+    color: rgb(231, 231, 231);
+}
+
+.clima-subInformacao_vento-div{
+    margin-left: 0.7em;
+}
+
+.clima-subInformacao_vento-img{
+    margin-top: 0.5em;
+}
+
+
+
+
+/*INICIO*/
+
+.clima-inicio_sol{
+    position: absolute;
+    right: 1.5em;
+    top: 8em;
+    width: 8em;
+    animation: spin 60s linear infinite;
+}
+
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+.clima-inicio_nuvem{
+    position: absolute;
+    left: 0;
+    top: 9.3em;
+    width: 14em;
+    z-index: 3;
+}
+
+.clima-inicio_nuvem2{
+    position: absolute;
+    right: 2em;
+    top: 8.57em;
+    width: 14em;
+    z-index: 3;
+}
+
+.clima-inicio_nuvem3{
+    position: absolute;
+    left: 6.2em;
+    top: 11.7em;
+    width: 11em;
+    z-index: 3;
+}
+
+.clima-inicio_clifs{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 0.9em;
+}
+
