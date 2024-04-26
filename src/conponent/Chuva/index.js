@@ -17,7 +17,7 @@ for (let i = 0; i < numDrops; i++) {
 
 return (
   <div className="rain-container">
-    {drops};
+    {drops}
   </div>
   );
 }

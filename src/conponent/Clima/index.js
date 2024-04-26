@@ -122,6 +122,8 @@ const Clima = () => {
         <div className='container'>
             <div className='clima'>
                 
+        
+
                 <div className='clima-pesquisa'>
                     <input type='text' placeholder='Busque um local...' className='clima-pesquisa_input'></input>
                     <button className='clima-pesquisa_button' onClick={search}> <IoMdSearch size={40}/> </button> 
@@ -137,7 +139,7 @@ const Clima = () => {
                         <Chuva /> {/*Importa o script de chuva*/}
                     </div>
                 </div>
-
+                <div className='teste'>
                 <div className='clima-imagem'>
                     <img src={weatherImage} className='clima-imagem_img' alt='Imagem do clima atual'></img>
                 </div>
@@ -166,7 +168,7 @@ const Clima = () => {
                     </div>
 
                 </div>
-
+                </div>
             </div>
         </div>
 

@@ -164,3 +164,168 @@
     border-radius: 0.9em;
 }
 
+
+
+@media screen and (max-width: 495px) {
+    
+    .clima{
+        width: 22em;
+        height: 40em;
+    }
+
+    .clima-pesquisa_input{
+        width: 9em;
+    }
+
+    .clima-inicio_nuvem{
+        width: 12em;
+    }
+    
+    .clima-inicio_nuvem2{
+        width: 11em;
+        top: 9.3em;
+    }
+    
+    .clima-inicio_nuvem3{
+        left: 5.7em;
+        width: 9em;
+    }
+
+    .clima-inicio_sol{
+        width: 7em;
+    }
+
+    /*pesquisa*/
+
+    .clima-subInformacao{
+        margin-top: 2em;
+    }
+
+
+}
+
+@media screen and (max-width: 365px) {
+    
+    .clima{
+        width: 21em;
+        height: 40em;
+    }
+
+    /*pesquisa*/
+
+    .clima-subInformacao{
+        margin-top: 2em;
+        transform: scale(0.9);
+    }
+
+    .clima-subInformacao_vento{
+        margin: 0em 0em 0em 4.6em;
+    }
+
+    .clima-subInformacao_umidade{
+        margin: 0em 0em 0em -2em;
+    }
+
+    .clima-informacao{
+        transform: scale(0.9);
+    }
+
+    .clima-imagem{
+        transform: scale(0.9);
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    
+    .clima{
+        width: 20em;
+        height: 32em;
+    }
+
+    .clima-pesquisa_input{
+        font-size: 1.3em;
+        width: 9em;
+    }
+
+    .clima-pesquisa_button{
+        width: 4.1em;
+        height: 4.1em;
+    }
+
+    .clima-inicio_nuvem{
+        width: 11em;
+        left: 0.3em;
+        top: 7.2em;
+    }
+    
+    .clima-inicio_nuvem2{
+        width: 10em;
+        right: 0.6em;
+        top: 7.4em;
+    }
+    
+    .clima-inicio_nuvem3{
+        left: 5.7em;
+        top: 9.3em;
+        width: 8em;
+    }
+
+    .clima-inicio_sol{
+        width: 5em;
+        right: 0em;
+        top: 6.6em;
+    }
+
+    /*pesquisa*/
+
+    .teste{
+        transform: scale(0.8);
+        margin-top: -4.4em;
+    }
+
+    .clima-subInformacao_umidade{
+        margin: 0em 0em 0em -2.4em;
+    }
+
+}
+
+@media screen and (max-width: 337px) {
+    .clima{
+        width: 19em;
+    }
+
+    .clima-pesquisa_input{
+        font-size: 1.2em;
+    }
+
+    .clima-pesquisa_button{
+        width: 4em;
+        height: 4em;
+    }
+
+    /*pesquisa*/
+
+}
+
+@media screen and (max-width: 323px) {
+    .clima{
+        width: 18em;
+    }
+
+    .clima-pesquisa_input{
+        font-size: 1.1em;
+    }
+
+    .clima-pesquisa_button{
+        width: 3.8em;
+        height: 3.8em;
+    }
+
+    /*pesquisa*/
+
+    .clima-subInformacao_umidade{
+        margin: 0em 0em 0em -3.4em;
+    }
+
+}
