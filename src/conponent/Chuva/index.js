@@ -3,7 +3,7 @@ import './Chuva.css';
 
 const Chuva = () => {
     
-const numDrops = 50; // número de gotas de chuva
+const numDrops = 50;
 const drops = [];
 
 // gera as gotas com posições horizontais e velocidades aleatórias
