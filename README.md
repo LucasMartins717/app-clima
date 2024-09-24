@@ -9,13 +9,13 @@
 ## Introdução
 
 **App-Clima** é um aplicativo que permite pesquisar informações climáticas em tempo real, como temperatura, velocidade do vento e umidade de um local específico. O aplicativo oferece uma interface simples e direta, facilitando a busca por dados precisos e atualizados sobre as condições climáticas.<br/>ㅤ<br/>
-![gifDemonstração]
+![gifDemonstração](/public/showGif.gif)
 
 ## Funcionalidades
 
 **Uso de API Climática** 🌍: Faz requisições a uma API para fornecer informações em tempo real sobre temperatura, umidade e condições atmosféricas.
 
-**Animação de Chuva** 🌧️: Uma chuva animada em JavaScript que aparece na página inicial, deixando o visual do app mais interessante.
+**Animação de Chuva** 🌧️: Uma chuva animada em JavaScript que aparece na parte inicial, deixando o visual do app mais interessante.
 
 **Pesquisa de Localidade** 🔍: Permite pesquisar a previsão do tempo para diferentes localidades inserindo o nome do local.
 
@@ -24,7 +24,7 @@
 
 ## Tecnologias
 
-![React](https://img.shields.io/badge/-React-282C34?style=flat&logo=react&logoColor=61DAFB)   Usado para construir a interface do aplicativo, permitindo a interação do usuário com a pesquisa de clima e a apresentação dos dados.
+![React](https://img.shields.io/badge/-React-282C34?style=flat&logo=react&logoColor=61DAFB) Usado para construir a interface do aplicativo, permitindo a interação do usuário com a pesquisa de clima e a apresentação dos dados.
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-282C34?style=flat&logo=javascript&logoColor=F7DF1E) Utilizado para implementar a lógica do aplicativo, incluindo chamadas à API para buscar informações do clima e manipulação de dados para exibição.
 
@@ -41,13 +41,13 @@ Tenha o [Node.js](https://nodejs.org/en/download/package-manager)🛠️ instala
 • Clone o repositório:
 
 ```sh
-git clone https://github.com/LucasMartins717/Orbits
+git clone https://github.com/LucasMartins717/app-clima
 ```
 
 • Acesse o diretório do projeto:
 
 ```sh
-cd orbits
+cd app-clima
 ```
 
 • Instale as dependências:
@@ -59,10 +59,10 @@ npm install
 • Inicie o aplicativo:
 
 ```sh
-npm run dev
+npm start
 ```
 
-• Dê uma olhada na porta gerada no terminal. Você pode clicar no link segurando Ctrl ou simplesmente digitar o endereço no navegador para abrir o aplicativo.
+• O servidor será iniciado automaticamente e deve abrir o aplicativo em localhost:3000. Se não abrir automaticamente, você pode abrir o navegador e digitar localhost:3000 para acessar o aplicativo.
 
 
 ## Licença
