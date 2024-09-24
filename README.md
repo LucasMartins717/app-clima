@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# App-Clima
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+• [Introdução](#introdução)  
+• [Funcionalidades](#funcionalidades)  
+• [Tecnologias](#tecnologias)  
+• [Instalação](#instalação)  
+• [Licença](#licença)  
 
-## Available Scripts
+## Introdução
 
-In the project directory, you can run:
+**App-Clima** é um aplicativo que permite pesquisar informações climáticas em tempo real, como temperatura, velocidade do vento e umidade de um local específico. O aplicativo oferece uma interface simples e direta, facilitando a busca por dados precisos e atualizados sobre as condições climáticas.<br/>ㅤ<br/>
+![gifDemonstração]
 
-### `npm start`
+## Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Uso de API Climática** 🌍: Faz requisições a uma API para fornecer informações em tempo real sobre temperatura, umidade e condições atmosféricas.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Animação de Chuva** 🌧️: Uma chuva animada em JavaScript que aparece na página inicial, deixando o visual do app mais interessante.
 
-### `npm test`
+**Pesquisa de Localidade** 🔍: Permite pesquisar a previsão do tempo para diferentes localidades inserindo o nome do local.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Interface Dinâmica** 💻: Atualiza a UI automaticamente de acordo com a localidade pesquisada e as condições climáticas recebidas.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tecnologias
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![React](https://img.shields.io/badge/-React-282C34?style=flat&logo=react&logoColor=61DAFB)   Usado para construir a interface do aplicativo, permitindo a interação do usuário com a pesquisa de clima e a apresentação dos dados.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![JavaScript](https://img.shields.io/badge/-JavaScript-282C34?style=flat&logo=javascript&logoColor=F7DF1E) Utilizado para implementar a lógica do aplicativo, incluindo chamadas à API para buscar informações do clima e manipulação de dados para exibição.
 
-### `npm run eject`
+![CSS](https://img.shields.io/badge/-CSS-282C34?style=flat&logo=css3&logoColor=1572B6) Usado para estilizar o aplicativo, garantindo um design limpo e responsivo.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Instalação
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### • Pré-requisitos
+Tenha o [Node.js](https://nodejs.org/en/download/package-manager)🛠️ instalado em sua máquina para poder executar o aplicativo.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### • Passos para instalação
 
-## Learn More
+• Clone o repositório:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+git clone https://github.com/LucasMartins717/Orbits
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+• Acesse o diretório do projeto:
 
-### Code Splitting
+```sh
+cd orbits
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+• Instale as dependências:
 
-### Analyzing the Bundle Size
+```sh
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+• Inicie o aplicativo:
 
-### Making a Progressive Web App
+```sh
+npm run dev
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+• Dê uma olhada na porta gerada no terminal. Você pode clicar no link segurando Ctrl ou simplesmente digitar o endereço no navegador para abrir o aplicativo.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Licença
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+• Este projeto utiliza a Licença MIT. Para mais informações, consulte o arquivo [LICENSE](./LICENSE).

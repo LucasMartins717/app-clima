@@ -17,10 +17,6 @@ import { FaWind } from 'react-icons/fa';
 import { useEffect, useState } from 'react';
 import Chuva from '../Chuva';
 
-//imports
-
-
-
 
 const Clima = () => {
 
@@ -47,7 +43,7 @@ const Clima = () => {
 
         const input = document.getElementsByClassName('clima-pesquisa_input');
         input[0].addEventListener('keydown', keyDown);
-    }) //Bind pra pesquisar input no enter
+    }) //bind pra pesquisar pelo enter
 
     const search = async () => {
 
@@ -105,7 +101,7 @@ const Clima = () => {
             setWeatherImage(snowWeather);
         }else{
             setWeatherImage(cloudWeather);
-        } //Seleciona a imagem do clima atual no local
+        } //seleciona a imagem do clima atual no local
 
         setTemperatura(data.main.temp + '°c');
         setLocalidade(data.name);
@@ -136,7 +132,7 @@ const Clima = () => {
                     <img src={nuvem3} className='clima-inicio_nuvem3' alt='Nuvem'></img>
                     <img src={clifs} className='clima-inicio_clifs' alt='Campo montanhoso'></img>
                     <div className='clima-inicio_chuva'>
-                        <Chuva /> {/*Importa o script de chuva*/}
+                        <Chuva />
                     </div>
                 </div>
                 <div className='teste'>
