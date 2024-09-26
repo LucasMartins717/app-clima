@@ -20,7 +20,8 @@ import Chuva from '../Chuva';
 
 const Clima = () => {
 
-    let api_key = '7d072064fea81b130f9877a55d523c5e';
+    const api_key = process.env.REACT_APP_API_KEY;
+    console.log('API Key:', api_key);
 
     const [weatherImage, setWeatherImage] = useState('');
     const [temperatura, setTemperatura] = useState();
