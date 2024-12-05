@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.clima{
+    position: relative;
+    background-image: linear-gradient(170deg, #fffefb81, #2b7f94);
+    border-radius: 1em;
+    border: 2px solid rgb(127, 141, 50);
+    width: 30em;
+    height: 45em;
+}
+
+
+
+
+/*PESQUISA*/
+
+.clima-pesquisa{
+    margin-top: 2em;
+}
+
+.clima-pesquisa_input{
+    font-size: 1.4em;
+    padding: 0.7em 1em;
+    border: none;
+    border-radius: 1em;
+}
+
+.clima-pesquisa_input::placeholder{
+    color: black;
+}
+
+.clima-pesquisa_button{
+    position: relative;
+    width: 4.3em;
+    height: 4.3em;
+    border: none;
+    background-color: white;
+    border-radius: 30em;
+    top: 1em;
+    margin-left: 2em;
+}
+
+
+
+
+/*IMAGEM*/
+
+.clima-imagem{
+    display: none;
+}
+
+.clima-imagem_img{
+    width: 16em;
+    margin-top: 1em;
+}
+
+
+
+
+/*INFORMAÇÃO*/
+
+.clima-informacao_temperatura{
+    margin: none;
+    font-size: 5em;
+    color: white;
+}
+
+.clima-informacao_local{
+    color: whitesmoke;
+    font-size: 3em;
+}
+
+
+
+
+/*SubInformação*/
+
+.clima-subInformacao{
+    display: flex;
+    justify-content: space-between;
+    margin: 6em 2em 0em 1em;
+}
+
+.clima-subInformacao_umidade{
+    display: flex;
+    color: rgb(231, 231, 231);
+}
+
+.clima-subInformacao_vento{
+    display: flex;
+    color: rgb(231, 231, 231);
+}
+
+.clima-subInformacao_vento-div{
+    margin-left: 0.7em;
+}
+
+.clima-subInformacao_vento-img{
+    margin-top: 0.5em;
+}
+
+
+
+
+/*INICIO*/
+
+.clima-inicio_sol{
+    position: absolute;
+    right: 1.5em;
+    top: 8em;
+    width: 8em;
+    animation: spin 60s linear infinite;
+}
+
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+.clima-inicio_nuvem{
+    position: absolute;
+    left: 0;
+    top: 9.3em;
+    width: 14em;
+    z-index: 3;
+}
+
+.clima-inicio_nuvem2{
+    position: absolute;
+    right: 2em;
+    top: 8.57em;
+    width: 14em;
+    z-index: 3;
+}
+
+.clima-inicio_nuvem3{
+    position: absolute;
+    left: 6.2em;
+    top: 11.7em;
+    width: 11em;
+    z-index: 3;
+}
+
+.clima-inicio_clifs{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 0.9em;
+}
+
+
+
+@media screen and (max-width: 495px) {
+    
+    .clima{
+        width: 22em;
+        height: 40em;
+    }
+
+    .clima-pesquisa_input{
+        width: 9em;
+    }
+
+    .clima-inicio_nuvem{
+        width: 12em;
+    }
+    
+    .clima-inicio_nuvem2{
+        width: 11em;
+        top: 9.3em;
+    }
+    
+    .clima-inicio_nuvem3{
+        left: 5.7em;
+        width: 9em;
+    }
+
+    .clima-inicio_sol{
+        width: 7em;
+    }
+
+    /*pesquisa*/
+
+    .clima-subInformacao{
+        margin-top: 2em;
+    }
+
+
+}
+
+@media screen and (max-width: 365px) {
+    
+    .clima{
+        width: 21em;
+        height: 40em;
+    }
+
+    /*pesquisa*/
+
+    .clima-subInformacao{
+        margin-top: 2em;
+        transform: scale(0.9);
+    }
+
+    .clima-subInformacao_vento{
+        margin: 0em 0em 0em 4.6em;
+    }
+
+    .clima-subInformacao_umidade{
+        margin: 0em 0em 0em -2em;
+    }
+
+    .clima-informacao{
+        transform: scale(0.9);
+    }
+
+    .clima-imagem{
+        transform: scale(0.9);
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    
+    .clima{
+        width: 20em;
+        height: 32em;
+    }
+
+    .clima-pesquisa_input{
+        font-size: 1.3em;
+        width: 9em;
+    }
+
+    .clima-pesquisa_button{
+        width: 4.1em;
+        height: 4.1em;
+    }
+
+    .clima-inicio_nuvem{
+        width: 11em;
+        left: 0.3em;
+        top: 7.2em;
+    }
+    
+    .clima-inicio_nuvem2{
+        width: 10em;
+        right: 0.6em;
+        top: 7.4em;
+    }
+    
+    .clima-inicio_nuvem3{
+        left: 5.7em;
+        top: 9.3em;
+        width: 8em;
+    }
+
+    .clima-inicio_sol{
+        width: 5em;
+        right: 0em;
+        top: 6.6em;
+    }
+
+    /*pesquisa*/
+
+    .teste{
+        transform: scale(0.8);
+        margin-top: -4.4em;
+    }
+
+    .clima-subInformacao_umidade{
+        margin: 0em 0em 0em -2.4em;
+    }
+
+}
+
+@media screen and (max-width: 337px) {
+    .clima{
+        width: 19em;
+    }
+
+    .clima-pesquisa_input{
+        font-size: 1.2em;
+    }
+
+    .clima-pesquisa_button{
+        width: 4em;
+        height: 4em;
+    }
+
+    /*pesquisa*/
+
+}
+
+@media screen and (max-width: 323px) {
+    .clima{
+        width: 18em;
+    }
+
+    .clima-pesquisa_input{
+        font-size: 1.1em;
+    }
+
+    .clima-pesquisa_button{
+        width: 3.8em;
+        height: 3.8em;
+    }
+
+    /*pesquisa*/
+
+    .clima-subInformacao_umidade{
+        margin: 0em 0em 0em -3.4em;
+    }
+
+}
